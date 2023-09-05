@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>speaker_green_icon-icons.com_52652.ico</file>
+        <file>icons/istockphoto-483687446-1024x1024.jpg</file>
+        <file>icons/sound_icon-icons.com_74449.ico</file>
+        <file>icons/speaker_15321.ico</file>
+        <file>icons/audio_play_music_wireless_speaker_icon_218693.ico</file>
+    </qresource>
+</RCC>
