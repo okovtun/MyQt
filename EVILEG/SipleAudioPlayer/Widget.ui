@@ -127,25 +127,15 @@
     <rect>
      <x>20</x>
      <y>10</y>
-     <width>47</width>
-     <height>13</height>
+     <width>381</width>
+     <height>16</height>
     </rect>
    </property>
    <property name="text">
     <string>TextLabel</string>
    </property>
-  </widget>
-  <widget class="QProgressBar" name="progressBar">
-   <property name="geometry">
-    <rect>
-     <x>20</x>
-     <y>60</y>
-     <width>381</width>
-     <height>23</height>
-    </rect>
-   </property>
-   <property name="value">
-    <number>0</number>
+   <property name="textFormat">
+    <enum>Qt::PlainText</enum>
    </property>
   </widget>
   <widget class="QTableView" name="playlistView">
@@ -156,6 +146,77 @@
      <width>381</width>
      <height>251</height>
     </rect>
+   </property>
+  </widget>
+  <widget class="QSlider" name="sliderTrack">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>70</y>
+     <width>381</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QSlider" name="sliderVolume">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>30</y>
+     <width>160</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="maximum">
+    <number>100</number>
+   </property>
+   <property name="value">
+    <number>58</number>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelDuration">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>50</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Duration</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelVolume">
+   <property name="geometry">
+    <rect>
+     <x>336</x>
+     <y>10</y>
+     <width>61</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Volume</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelPlayed">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>50</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Played: ...</string>
    </property>
   </widget>
  </widget>
